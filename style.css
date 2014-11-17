@@ -1,0 +1,37 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+			.box {position: absolute;margin: 10em auto 0;width: 5em; height: 5em;background: dimgrey;}
+			.box:hover {opacity:0.5}
+			.box:before, .box:after {position: absolute;transform-origin: bottom right;content: '';}
+			.box:before {top: 0; right: 100%; bottom: 0;width: 2em;background: darkgrey;transform: skewY(45deg);}
+			.box:after {right: 0; bottom: 100%; left: 0;height: 2em;background: silver;transform: skewX(45deg);}
+			#cubo1{margin-top: 374px;margin-left: 251px;z-index:7}
+			#cubo2{margin-top: 342px;margin-left: 220px;z-index:4}
+			#cubo3{margin-top: 342px;margin-left: 141px;z-index:4}			
+			#cubo1a{margin-top: 422px;margin-left: 219px;z-index:3}
+			#cubo2a{margin-top: 310px;margin-left: 189px;z-index:3}
+			#cubo3a{margin-top: 262px;margin-left: 220px;z-index:4}	
+			#cubo1b{margin-top: 500px;margin-left: 300px;z-index:1}
+			#cubo2b{margin-top: 250px;margin-left: 100px;z-index:1;display:none}	
+			#cubo3b{margin-top: 150px;margin-left: 100px;z-index:1;display:none}			
+			#cubo4{margin-top: 454px;margin-left: 331px;z-index:6}
+			#cubo5{margin-top: 342px;margin-left: 300px;z-index:3}
+			#cubo6{margin-top: 262px;margin-left: 300px;z-index:3}
+			#cubo4a{margin-top: 230px;margin-left: 268px;z-index:2}
+			#cubo5a{margin-top: 295px;margin-left: 250px;z-index:2}
+			#cubo6a{margin-top: 373px;margin-left: 411px;z-index:3}
+			#cubo4b{margin-top: 350px;margin-left: 200px}
+			#cubo5b{margin-top: 250px;margin-left: 200px;display:none}
+			#cubo6b{margin-top: 294px;margin-left: 331px;z-index:7}			
+			#cubo7{margin-top: 342px;margin-left: 460px;z-index:2}
+			#cubo8{margin-top: 342px;margin-left: 380px;z-index:2}
+			#cubo9{margin-top: 373px;margin-left: 331px;z-index:6}
+			#cubo7a{margin-top: 405px;margin-left: 363px;z-index:7}
+			#cubo8a{margin-top: 295px;margin-left: 350px;z-index:1}
+			#cubo9a{margin-top: 262px;margin-left: 380px;z-index:2}
+			#cubo7b{margin-top: 350px;margin-left: 300px}
+			#cubo8b{margin-top: 250px;margin-left: 300px}
+			#cubo9b{margin-top: 182px;margin-left: 300px;z-index:7}
