@@ -1,4 +1,4 @@
 pixel-art-3d-cube
 =================
 
-experimento css3 transform cubos
+experimento <em>css3 transform</em> cubos
